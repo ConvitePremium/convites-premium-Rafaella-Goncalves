@@ -23,15 +23,15 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Maria Helena",
+  nome: "Rafaella Gonçalves",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5515991686144",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Maria Helena."
+    numero: "5551997993401",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Rafaella."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
@@ -50,7 +50,7 @@ window.CONFIG = {
     localizacao: true,
     presentes: true,
     dresscode: true,
-    manual: true,
+    manual: false,
     contagem: false
   },
 
@@ -61,7 +61,7 @@ window.CONFIG = {
   // posicao: ajuste pelo editor visual (?editor=1), escolhendo “PIX (copiar chave)”.
   pix: {
     ativo: true,
-    chave: "00020101021126580014br.gov.bcb.pix01365210c16e-d225-40ac-ae51-46aafcf6426c5204000053039865802BR5916MARIA H Z SANTOS6008SOROCABA62070503***6304E9FA",
+    chave: "51993462888",
     posicao: {"left":16.8,"top":64.0,"width":66.0,"height":8.2}
   },
 
@@ -90,8 +90,7 @@ window.CONFIG = {
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
     presentes: { mostrarTexto:false, posicao: {"left":24.2,"top":83.6,"width":55.0,"height":7.8} },
-    dresscode: { mostrarTexto:true, posicao: {"left":26.805437549920125,"top":86.88550214891683,"width":46.581485248602235,"height":5.424627114446271} },
-    manual: { mostrarTexto:true, posicao: {"left":25.783057732627793,"top":85.2744510457582,"width":47.80830358925719,"height":5.309555171188598} }
+    dresscode: { mostrarTexto:true, posicao: {"left":26.805437549920125,"top":86.88550214891683,"width":46.581485248602235,"height":5.424627114446271} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -103,8 +102,7 @@ window.CONFIG = {
         confirm: { left:19.111031037141306, top:63.8032059022128, width:15.963035699920129, height:8.57238650880756 },
         map: { left:42.3313764835857, top:64.03332543810177, width:15.611963461541478, height:8.522989476077747 },
         gift: { left:64.6203873670928, top:63.907444274051855, width:16.091044953075077, height:8.643484137471408 },
-        dress: { left:30.670926517571885, top:77.02597723193821, width:15.682105506190094, height:8.298251846116688 },
-        manual: { left:53.98780574768387, top:76.56567628964217, width:16.29551467651757, height:8.528402317264716 }
+        dress: { left:30.670926517571885, top:77.02597723193821, width:15.682105506190094, height:8.298251846116688 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
@@ -126,6 +124,6 @@ window.CONFIG = {
   // volume: de 0 (mudo) a 1 (máximo). O padrão 0.30 é agradável e não
   //         briga com o áudio do vídeo.
   musica: {
-    volume: 0.30
+    volume: 0.70
   }
 };

@@ -89,8 +89,8 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1
     botoesVoltar: {
-    dresscode: { mostrarTexto:false, posicao: {"left":30.538670626996808,"top":86.82210659607239,"width":38.64217252396166,"height":4.923130085037458} },
-    presentes: { mostrarTexto:false, posicao: {"left":27.214392596845045,"top":89.87744510457583,"width":46.581485248602235,"height":5.424627114446271} }
+         presentes: { mostrarTexto:false, posicao: {"left":27.214392596845045,"top":89.87744510457583,"width":46.581485248602235,"height":5.424627114446271} },
+         dresscode: { mostrarTexto:false, posicao: {"left":30.538670626996808,"top":86.82210659607239,"width":38.64217252396166,"height":4.923130085037458} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
